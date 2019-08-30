@@ -10,15 +10,15 @@ export class AppComponent {
 
   constructor() {
     const firebaseConfig = {
-      apiKey: 'AIzaSyBDm7nNUgbol4if8EZGSgs7eZcBRbXs0Ys',
-      authDomain: 'masuperagence-8d8da.firebaseapp.com',
-      databaseURL: 'https://masuperagence-8d8da.firebaseio.com',
-      projectId: 'masuperagence-8d8da',
+      apiKey: 'AIzaSyBlv3cR6BthyybkVFQ0gjsX5Tuo4EbEPcs',
+      authDomain: 'superagence-dbbed.firebaseapp.com',
+      databaseURL: 'https://superagence-dbbed.firebaseio.com',
+      projectId: 'superagence-dbbed',
       storageBucket: '',
-      messagingSenderId: '786507518394',
-      appId: '1:786507518394:web:3469b63598f62b3e'
+      messagingSenderId: '425656949671',
+      appId: '1:425656949671:web:595481a44b641a89'
     };
-
+    // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
   }
 }
